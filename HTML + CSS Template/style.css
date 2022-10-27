@@ -127,10 +127,6 @@ h2{
     color: rgba(34, 34, 34, 0.1);
 }
 
-br{
-    border: 1px solid red;
-}
-
 #about-us header figure{
     align-items: center
 }
@@ -153,7 +149,6 @@ section article img{
 }
 
 #about-us article span{
-    font-weight: 800;
     font-size: 36px;
     line-height: 49px;
     color: #3E3F43;
