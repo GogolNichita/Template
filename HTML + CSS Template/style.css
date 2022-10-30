@@ -222,3 +222,175 @@ section article img{
     color: #FFFFFF;
     border: none;
 }
+
+#Categories figure{
+    margin-top: 9%;
+}
+
+#structure{
+    display: grid;
+    grid-template-columns: repeat(3,350px);
+    margin-left: 22%;
+}
+
+#Desk{
+    width: 280px;
+    height: 400px;
+    left: 0px;
+    top: 0px;
+    background: #F9BDBD;
+    border: none;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+#Desk p{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    color: #3E3F43;
+    padding-left: 10%;
+}
+
+#Desk button{
+    background: #F9BDBD;
+    border: 1px solid #3E3F43;
+    border-radius: 4px;
+    width: 123px;
+    height: 40px;
+    margin-left: 50%;
+    margin-top: 10%;
+}    
+
+#Chair{
+    width: 280px;
+    height: 400px;
+    left: 336px;
+    top: 0px;
+    background: #F7DEA6;
+    border: none;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+#Chair p{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    color: #3E3F43;
+    padding-left: 10%;
+}
+
+#Chair img{
+    padding-left: 20%;
+}
+
+#Chair button{
+    background: #F7DEA6;
+    border: 1px solid #3E3F43;
+    border-radius: 4px;
+    width: 123px;
+    height: 40px;
+    margin-left: 50%;
+    margin-top: 6%;
+} 
+
+#Kitchenware{
+    width: 280px;
+    height: 400px;
+    left: 672px;
+    top: 0px;
+    background: #A8DCEC;
+    border: none;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+#Kitchenware p{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    color: #3E3F43;
+    padding-left: 10%;
+}
+
+#Kitchenware img{
+    padding-left: 20%;
+}
+
+#Kitchenware button{
+    background: #A8DCEC;
+    border: 1px solid #3E3F43;
+    border-radius: 4px;
+    width: 123px;
+    height: 40px;
+    margin-left: 50%;
+    margin-top: 20%;
+} 
+
+#BookShelf{
+    width: 280px;
+    height: 400px;
+    left: 0px;
+    top: 0px;
+    background: #F9BDBD;
+    border: none;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+#BookShelf p{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    color: #3E3F43;
+    padding-left: 10%;
+}
+
+#BookShelf img{
+    padding-left: 20%;
+}
+
+#BookShelf button{
+    background: #F9BDBD;
+    border: 1px solid #3E3F43;
+    border-radius: 4px;
+    width: 123px;
+    height: 40px;
+    margin-left: 50%;
+    margin-top: 10%;
+} 
+
+#Electronics{
+    width: 280px;
+    height: 400px;
+    left: 336px;
+    top: 0px;
+    background: #F7DEA6;
+    border: none;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+#Electronics p{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    color: #3E3F43;
+    padding-left: 10%;
+}
+
+#Electronics img{
+    padding-left: 10%;
+    padding-top: 20%;
+}
+
+#Electronics button{
+    background: #F7DEA6;
+    border: 1px solid #3E3F43;
+    border-radius: 4px;
+    width: 123px;
+    height: 40px;
+    margin-left: 50%;
+    margin-top: 23%;
+} 
