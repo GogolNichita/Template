@@ -5,7 +5,7 @@ nav{
     display: flex;
     width: 1000px;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 2%;
     margin-bottom: 120px;
 }
 
@@ -21,7 +21,8 @@ nav{
     font-size: 24px;
     font-weight: bold;
     color: #3E3F43;
-    margin-left: 8px;
+    margin-left: 7%;
+    width: 200px;
 }
 
 nav ul{
@@ -31,7 +32,7 @@ nav ul{
     list-style: none;
     width: 100%;
     padding: 0;
-    margin-left: 110px;
+    margin-left: 10%;
     height: 30px;
 }
 
@@ -50,12 +51,12 @@ nav ul li.active a{
 nav ul li a.button{
     text-transform: uppercase;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 700px;
     font-size: 16px;
     line-height: 22px;
     border: 1px solid rgba(34, 34, 34, 0.75);
     border-radius: 8px;
-    padding: 9px 36px;
+    padding: 5% 20px;
 }
 
 header{
@@ -118,7 +119,7 @@ section div{
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2,500px);
-    grid-template-rows: 80px;
+    grid-template-rows: 380px;
     width: 500px;
     max-width: 500px;
 }
@@ -139,8 +140,8 @@ h2{
     position: absolute;
     width: 280px;
     height: 400px;
-    left: 340px;
-    top: 1000px;
+    left: 22%;
+    top: 120%;
     background: #F7DEA6;
     border-bottom-left-radius: 100px;
     border-top-right-radius: 100px;
@@ -148,23 +149,47 @@ h2{
 }
 
 section article img{
-    margin-left: -210px;
-    margin-top: 100px;
+    margin-left: -37%;
+    margin-top: 30%;
 }
 
 #about-us article span{
-    margin-left: -210px;
-    margin-top: 100px;
+    margin-left: -40%;
+    margin-top: 35%;
     font-size: 36px;
     line-height: 49px;
     color: #3E3F43;
+    float: right;
 }
 
-#about-us article div{
-    margin-left: -210px;
-    margin-top: 120px;
+#about-us article p{
+    margin-left: 60%;
+    margin-top: -20%;
     font-weight: 600;
     font-size: 24px;
     line-height: 33px;
     color: #000000;
+    width: 500px;
+}
+
+.container2 {
+    display: grid;
+    margin-left: 22%;
+    grid-template-columns: 650px 350px;
+    grid-template-rows: 380px;
+    
+}
+
+#section-text2 span{
+    float: left;
+    font-size: 36px;
+    margin-top: 130px;
+    margin-bottom: 20px;
+}
+#section-text2 p{
+    font-size: 24px;
+}
+
+#fourth img{
+    float: right;
 }
