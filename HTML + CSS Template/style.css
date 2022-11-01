@@ -94,7 +94,7 @@ header button{
     height: 800px;
     position: absolute;
     top: 0;
-    right: 30%;
+    right: 23%;
     border-bottom-left-radius: 100px;
     z-index: -1;
 }
@@ -144,10 +144,11 @@ section header img{
 
 #header-bg2{
     position: absolute;
+    clip: auto;
     width: 280px;
     height: 400px;
-    left: 31%;
-    margin-top: 12%;
+    left: 25%;
+    margin-top: 15%;
     background: #F7DEA6;
     border-bottom-left-radius: 100px;
     border-top-right-radius: 100px;
@@ -181,9 +182,10 @@ section article img{
 
 .container2 {
     display: grid;
-    margin-left: 31%;
     grid-template-columns: 650px 350px;
     grid-template-rows: 380px;
+    justify-content: center;
+    margin-top: 0;
     
 }
 
@@ -207,16 +209,13 @@ section article img{
 }
 
 #How-it-works div{
-    margin-left: 30%;
-    margin-top: 0;
+    margin: auto;
+    text-align: center;
 }
 
 #How-it-works button{
-    margin-left: 28%;
     width: 212px;
     height: 50px;
-    left: 470px;
-    top: 2393px;
     background: #DAA520;
     border-radius: 4px;
     font-weight: 700;
@@ -235,8 +234,8 @@ section article img{
 #structure{
     display: grid;
     grid-template-columns: repeat(3,350px);
-    margin-left: 30%;
-    margin-top: -3%;
+    justify-content: center;
+    margin-top: 0;
 }
 
 #Desk{
@@ -408,7 +407,7 @@ section article img{
 #Testimony div.StructureTestimony{
     display: grid;
     grid-template-columns: repeat(3,300px);
-    margin-left: 30%;
+    justify-content: center;
     margin-top: 0;
 }
 
@@ -419,42 +418,34 @@ section article img{
 
 #Testimony div.StructureTestimony2{
     display: grid;
-    grid-template-columns: repeat(4,400px);
-    padding-left: 20%;
+    grid-template-columns: repeat(3,400px);
+    justify-content: center;
+    align-items: baseline;
+    margin: 0;
 }
 
 #Testimony div.StructureTestimony2 div{
     font-size: 18px;
     line-height: 25px;
     color: #000000;
-    margin-top: -65%;
-    margin-left: 80%;
-    width: 350px;
+    margin-left: 40%;
+    width: 500px;
 }
 
 #Testimony div.StructureTestimony2 input{
-    font-weight: 400;
     font-size: 16px;
-    line-height: 22px;
-    color: #AFAFAF;
     border: 1px solid #DAA520;
     width: 355px;
     height: 40px;
-    left: 600px;
-    top: 4337px;
     margin-left: 70%;
-    margin-top:  -60%;
 }
 
 #Testimony div.StructureTestimony2 button{
     width: 120px;
     height: 45px;
-    left: 1048px;
-    top: 4337px;
     background: #DAA520;
     border: none;
     border-radius: 4px;
-    margin-top: -60%;
     margin-left: 55%;
 }
 
@@ -468,7 +459,7 @@ footer{
     display: grid;
     grid-template-rows: repeat(5,25px);
     grid-template-columns: repeat(5,175px);
-    margin-left: 33%;
+    justify-content: center;
     margin-top: -5%;
 }
 
