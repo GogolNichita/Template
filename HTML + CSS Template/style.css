@@ -42,6 +42,7 @@ nav ul li a{
     font-size: 16px;
     line-height: 22px;
     color: rgba(34, 34, 34, 0.75);
+    text-decoration: none;
 }
 
 nav ul li.active a{
@@ -56,7 +57,7 @@ nav ul li a.button{
     line-height: 22px;
     border: 1px solid rgba(34, 34, 34, 0.75);
     border-radius: 8px;
-    padding: 5% 20px;
+    padding: 9px 36px;
 }
 
 header{
@@ -89,7 +90,7 @@ header button{
 
 #header-bg{
     background: #F9BDBD;
-    width: 370px;
+    width: 700px;
     height: 800px;
     position: absolute;
     top: 0;
@@ -111,7 +112,7 @@ section header{
 }
 
 section div{
-    margin-top: 20px;
+    margin-top: 9%;
 }
 
 #about-us article{
@@ -132,8 +133,14 @@ h2{
     color: rgba(34, 34, 34, 0.1);
 }
 
-#about-us header figure{
+#about-us header {
     align-items: center
+}
+
+section header img{
+    margin-left: -5%;
+    margin-right: 2%;
+    align-items: center;
 }
 
 #header-bg2{
@@ -141,7 +148,7 @@ h2{
     width: 280px;
     height: 400px;
     left: 22%;
-    top: 120%;
+    margin-top: 17%;
     background: #F7DEA6;
     border-bottom-left-radius: 100px;
     border-top-right-radius: 100px;
@@ -149,7 +156,7 @@ h2{
 }
 
 section article img{
-    margin-left: -37%;
+    margin-left: -50%;
     margin-top: 30%;
 }
 
@@ -200,11 +207,12 @@ section article img{
 }
 
 #How-it-works figcaption{
-    width: 210px;
+    width: 200px;
 }
 
 #How-it-works div{
-    margin-left: 20%;
+    margin-left: 22%;
+    margin-top: 0;
 }
 
 #How-it-works button{
@@ -225,12 +233,14 @@ section article img{
 
 #Categories figure{
     margin-top: 9%;
+    align-items: right;
 }
 
 #structure{
     display: grid;
     grid-template-columns: repeat(3,350px);
-    margin-left: 22%;
+    margin-left: 25%;
+    margin-top: -3%;
 }
 
 #Desk{
