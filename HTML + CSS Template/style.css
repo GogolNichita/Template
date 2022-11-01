@@ -413,6 +413,7 @@ section article img{
     display: grid;
     grid-template-columns: repeat(3,300px);
     margin-left: 20%;
+    margin-top: 0;
 }
 
 #Testimony nav{
@@ -422,18 +423,18 @@ section article img{
 
 #Testimony div.StructureTestimony2{
     display: grid;
-    grid-template-columns: repeat(4,300px);
+    grid-template-columns: repeat(4,400px);
     padding-left: 20%;
 }
 
-#Testimony div.StructureTestimony2 div span{
-    font-weight: 700;
+#Testimony div.StructureTestimony2 div{
     font-size: 18px;
     line-height: 25px;
     color: #000000;
+    margin-top: -50%;
 }
 
-#Testimony div.StructureTestimony2 h3{
+#Testimony div.StructureTestimony2 input{
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
@@ -443,18 +444,18 @@ section article img{
     height: 40px;
     left: 600px;
     top: 4337px;
-    margin-left: 70%;
-    margin-top: 20%;
+    margin-left: 50%;
+    margin-top: -50%;
 }
 
 #Testimony div.StructureTestimony2 button{
     width: 120px;
-    height: 42px;
+    height: 44px;
     left: 1048px;
     top: 4337px;
     background: #DAA520;
     border: none;
     border-radius: 4px;
-    margin-top: 20%;
-    margin-left: 85%;
+    margin-top: -50%;
+    margin-left: 20%;
 }
