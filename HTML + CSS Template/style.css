@@ -67,16 +67,12 @@ header{
 }
 
 header h1{
-    font-weight: 700;
     font-size: 72px;
-    line-height: 98px;
     color: #313235;
 }
 
 header span{
-    font-weight: 400;
     font-size: 36px;
-    line-height: 49px;
     color: #3E3F43;
 }
 
@@ -104,12 +100,6 @@ header button{
     justify-content: space-between;
 }
 
-section header{
-    width: 1000px;
-    margin: 0 auto;
-    display: flex;  
-}
-
 section div{
     margin-top: 9%;
 }
@@ -127,8 +117,6 @@ section div{
 h2{
     font-weight: 800;
     font-size: 72px;
-    line-height: 98px;
-    text-align: right;
     color: rgba(34, 34, 34, 0.1);
 }
 
@@ -164,16 +152,13 @@ section article img{
     margin-left: -40%;
     margin-top: 35%;
     font-size: 36px;
-    line-height: 49px;
     color: #3E3F43;
-    float: right;
     width: 450px;
 }
 
 #about-us article p{
     margin-left: 60%;
     margin-top: -20%;
-    font-weight: 600;
     font-size: 24px;
     line-height: 33px;
     color: #000000;
@@ -204,10 +189,6 @@ section article img{
     margin-top: 9%;
 }
 
-#How-it-works figcaption{
-    width: 200px;
-}
-
 #How-it-works div{
     margin: auto;
     text-align: center;
@@ -216,12 +197,11 @@ section article img{
 #How-it-works button{
     width: 212px;
     height: 50px;
+    margin-top: 20px;
     background: #DAA520;
     border-radius: 4px;
     font-weight: 700;
     font-size: 16px;
-    line-height: 22px;
-    text-align: center;
     color: #FFFFFF;
     border: none;
 }
@@ -231,158 +211,73 @@ section article img{
     align-items: right;
 }
 
-#structure{
+.structure{
     display: grid;
     grid-template-columns: repeat(3,350px);
     justify-content: center;
     margin-top: 0;
 }
 
-#Desk{
+.structure div{
     width: 280px;
     height: 400px;
-    left: 0px;
-    top: 0px;
-    background: #F9BDBD;
-    border: none;
     border-bottom-left-radius: 100px;
     border-top-right-radius: 100px;
 }
 
-#Desk p{
+.structure div p{
     font-weight: 800;
     font-size: 24px;
     line-height: 33px;
     color: #3E3F43;
-    padding-left: 10%;
 }
+
+.structure div img{
+    padding-left: 20%;
+}
+
+.structure div button{
+    background: none;
+    border: 1px solid #3E3F43;
+    border-radius: 4px;
+    width: 123px;
+    height: 40px;
+    margin-left: 50%;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+#Desk{
+    background: #F9BDBD;
+}
+
+#Desk img{
+    padding: 0;
+}  
 
 #Desk button{
-    background: #F9BDBD;
-    border: 1px solid #3E3F43;
-    border-radius: 4px;
-    width: 123px;
-    height: 40px;
-    margin-left: 50%;
-    margin-top: 10%;
-}    
+    margin-top: 5%;
+}
 
 #Chair{
-    width: 280px;
-    height: 400px;
-    left: 336px;
-    top: 0px;
     background: #F7DEA6;
-    border: none;
-    border-bottom-left-radius: 100px;
-    border-top-right-radius: 100px;
 }
-
-#Chair p{
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 33px;
-    color: #3E3F43;
-    padding-left: 10%;
-}
-
-#Chair img{
-    padding-left: 20%;
-}
-
-#Chair button{
-    background: #F7DEA6;
-    border: 1px solid #3E3F43;
-    border-radius: 4px;
-    width: 123px;
-    height: 40px;
-    margin-left: 50%;
-    margin-top: 6%;
-} 
 
 #Kitchenware{
-    width: 280px;
-    height: 400px;
-    left: 672px;
-    top: 0px;
     background: #A8DCEC;
-    border: none;
-    border-bottom-left-radius: 100px;
-    border-top-right-radius: 100px;
-}
-
-#Kitchenware p{
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 33px;
-    color: #3E3F43;
-    padding-left: 10%;
-}
-
-#Kitchenware img{
-    padding-left: 20%;
 }
 
 #Kitchenware button{
-    background: #A8DCEC;
-    border: 1px solid #3E3F43;
-    border-radius: 4px;
-    width: 123px;
-    height: 40px;
-    margin-left: 50%;
-    margin-top: 20%;
-} 
+    margin-top: 12%;
+}
 
 #BookShelf{
-    width: 280px;
-    height: 400px;
-    left: 0px;
-    top: 0px;
     background: #F9BDBD;
-    border: none;
-    border-bottom-left-radius: 100px;
-    border-top-right-radius: 100px;
 }
-
-#BookShelf p{
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 33px;
-    color: #3E3F43;
-    padding-left: 10%;
-}
-
-#BookShelf img{
-    padding-left: 20%;
-}
-
-#BookShelf button{
-    background: #F9BDBD;
-    border: 1px solid #3E3F43;
-    border-radius: 4px;
-    width: 123px;
-    height: 40px;
-    margin-left: 50%;
-    margin-top: 10%;
-} 
 
 #Electronics{
-    width: 280px;
-    height: 400px;
-    left: 336px;
-    top: 0px;
     background: #F7DEA6;
-    border: none;
-    border-bottom-left-radius: 100px;
-    border-top-right-radius: 100px;
-}
-
-#Electronics p{
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 33px;
-    color: #3E3F43;
-    padding-left: 10%;
 }
 
 #Electronics img{
@@ -391,14 +286,8 @@ section article img{
 }
 
 #Electronics button{
-    background: #F7DEA6;
-    border: 1px solid #3E3F43;
-    border-radius: 4px;
-    width: 123px;
-    height: 40px;
-    margin-left: 50%;
-    margin-top: 23%;
-} 
+    margin-top: 13%;
+}
 
 #Testimony figure{
     margin-top: 9%;
@@ -427,7 +316,6 @@ section article img{
 #Testimony div.StructureTestimony2 div{
     font-size: 18px;
     line-height: 25px;
-    color: #000000;
     margin-left: 40%;
     width: 500px;
 }
@@ -470,8 +358,6 @@ footer figure{
 }
 
 footer div{
-    font-weight: 400;
-    font-size: 14px;
     line-height: 19px;
     color: #8D8D8D;
     margin-top: 10%;
@@ -494,7 +380,6 @@ footer div.FirstColumn{
 p{
     text-align: center;
     font-weight: 600;
-    font-size: 12px;
     line-height: 16px;
     color: #8D8D8D;
 }
